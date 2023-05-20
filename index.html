@@ -1,14 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GitHub Recreation</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/mark-github.jpeg" alt="GitHubicon" />
+      <form id="form">
+        <input
+          type="search"
+          id="query"
+          name="q"
+          placeholder="Search or jump to..."
+        />
+        <button>i</button>
+      </form>
+      <nav>
+        <a href="pull-requests">Pull Requests</a>
+        <a href="issues">Issues</a>
+        <a href="codespaces">Codespaces</a>
+        <a href="marketplace">Marketplace</a>
+        <a href="explore">Explore</a>
+      </nav>
+    </header>
+    <nav>
+      <a href="/overview/">Overview</a>
+      <a href="/repositories/">Repositories</a>
+      <a href="/projects/">Projects</a>
+      <a href="/packages/">Packages</a>
+      <a href="/stars/">Stars</a>
+    </nav>
+    <input
+      type="search"
+      id="site-search"
+      name="q"
+      placeholder="Find a repository..."
+    />
+    <span>
+      <select name="select-type" id="select-type">
+        <option value="type" selected>Type</option>
+        <option value="all">All</option>
+        <option value="public" disabled>Public</option>
+        <option value="private" disabled>Private</option>
+      </select>
+      <select name="language" id="language">
+        <option value="language" selected>Language</option>
+      </select>
+      <select name="sort" id="sort">
+        <option value="sort" selected>Sort</option>
+      </select>
+    </span>
+    <main>
+      <aside>
+        <img src="" alt="" />
+        <h1>Elia Partin</h1>
+        <button>Follow</button>
+      </aside>
+      <div id="repostitories list">
+        <ul class="repositories">
+          <li><a href="">vertical-timeline</a></li>
+          <button>
+            <img src="images/star icon.png" alt="star icon" /> Star
+          </button>
+          <li><a href="">octocats</a></li>
+          <button>Star</button>
+          <img src="images/star icon.png" alt="star icon" />
+          <li><a href="">awesomely-ugly-website</a></li>
+          <button>
+            <img src="images/star icon.png" alt="star icon" />Star
+          </button>
+          <li><a href="">js-war-game</a></li>
+          <button>
+            <img src="images/star icon.png" alt="star icon" />Star
+          </button>
+          <li><a href="">js-memory-game</a></li>
+          <button>
+            <img src="images/star icon.png" alt="star icon" />Star
+          </button>
+          <li><a href="">js-etsy-iteration</a></li>
+          <button>
+            <img src="images/star icon.png" alt="star icon" />Star
+          </button>
+          <li><a href="">js-array-practice</a></li>
+          <img src="images/star icon.png" alt="star icon" /><button>
+            Star
+          </button>
+          <li><a href="">array-cardio-day1</a></li>
+          <button>
+            <img src="images/star icon.png" alt="star icon" />Star
+          </button>
+          <li><a href="">js-responsive-calculator</a></li>
+          <button>
+            <img src="images/star icon.png" alt="star icon" />Star
+          </button>
+          <li><a href="">js-guessing-game</a></li>
+          <button>
+            <img src="images/star icon.png" alt="star icon" />Star
+          </button>
+          <li><a href="">js-function-practice</a></li>
+          <button>
+            <img src="images/star icon.png" alt="star icon" />Star
+          </button>
+          <li><a href="">js-virtual-pet</a></li>
+          <button>
+            <img src="images/star icon.png" alt="star icon" />Star
+          </button>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <img src="images/mark-github.jpeg" alt="GitHubicon" />
+      <nav>
+        <a href="terms">Terms</a>
+        <a href="privacy">Privacy</a>
+        <a href="security">Security</a>
+        <a href="status">Status</a>
+        <a href="docs">Docs</a>
+        <a href="contact">Contact GitHub</a>
+        <a href="pricing">Pricing</a>
+        <a href="API">API</a>
+        <a href="training">Training</a>
+        <a href="blog">Blog</a>
+        <a href="about">About</a>
+      </nav>
+    </footer>
+  </body>
 </html>
