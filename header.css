@@ -1,0 +1,40 @@
+header {
+    border-bottom: 6px rgb(209, 10, 10);
+    display: flex;
+    /* position: relative; */
+    background-color: blanchedalmond;
+    margin-top: 0px;
+    /* flex: auto; */
+    align-items: center;
+    /* flex-wrap: nowrap; */
+    align-self: stretch;
+    padding: 8px;
+    background-color: #161b22;
+    font: var(--primary-font-family);
+   
+
+
+}
+img {
+width: 32px;
+height: 32px;
+
+
+}
+input {
+    width: 250px;
+    font-size: 14px;
+    
+}
+nav {
+    align-self: auto;
+    align:stretch;
+    
+}
+header a {
+    color: #f0f6fc;
+    font: var(--primary-font-family);
+    font-weight: 500;
+    font-size: 12px;
+    
+}
