@@ -14,3 +14,26 @@ html {
 body {
     background-color: var(--primary-black);
 }
+.container {
+position: relative;
+padding: 26px;
+
+
+
+} 
+.container a {
+    color: #f0f6fc;
+    font: var(--primary-font-family);
+    font-weight: 500;
+    font-size: 12px;
+    
+    
+}
+input {
+    position: relative;
+    color: #0d1116;
+}
+span {
+    position: absolute;
+   
+}

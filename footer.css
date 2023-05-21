@@ -1,5 +1,4 @@
-header {
-
+footer {
     display: flex;
     position: relative;
     margin-top: 0px;
@@ -8,34 +7,21 @@ header {
     /* flex-wrap: nowrap; */
     align-self: stretch;
     padding: 8px;
-    background-color: #161b22;
     font: var(--primary-font-family);
     margin-left: 12px;
-   
-
-
 }
-header img {
-width: 32px;
-height: 32px;
-
-
-}
-input {
-    width: 250px;
-    font-size: 14px;
+footer img {
+    width: 32px;
+    height: 32px;
     
-}
-nav {
-    align-self: auto;
-    align:stretch;
     
-}
-header a {
+    }
+
+footer a {
     color: #f0f6fc;
     font: var(--primary-font-family);
     font-weight: 500;
     font-size: 12px;
-    margin-left: 18px;
+   /* box-align: center; */
     
 }
