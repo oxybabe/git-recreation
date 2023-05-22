@@ -1,16 +1,17 @@
 header {
 
-    display: flex;
+    display: block;
     position: relative;
     margin-top: 0px;
     flex: auto;
     align-items: center;
     /* flex-wrap: nowrap; */
     align-self: stretch;
-    padding: 8px;
+    padding: 25px;
     background-color: #161b22;
     font: var(--primary-font-family);
     margin-left: 12px;
+    text-decoration: none; 
    
 
 
@@ -18,18 +19,24 @@ header {
 header img {
 width: 32px;
 height: 32px;
+position: absolute;
 
 
 }
-input {
+header input {
     width: 250px;
     font-size: 14px;
+    left: 10px;
+    position: absolute;
+    left: 4%;
+    border-radius: 5px;
     
 }
 nav {
     align-self: auto;
     align:stretch;
-    
+    position: absolute;
+    left: 26%;
 }
 header a {
     color: #f0f6fc;
@@ -37,5 +44,7 @@ header a {
     font-weight: 500;
     font-size: 12px;
     margin-left: 18px;
+    position:relative;
+    text-decoration: none;
     
 }

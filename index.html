@@ -7,9 +7,10 @@
     <title>GitHub Recreation</title>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="header.css" />
-    <link rel="stylesheet" href="aside.css">
-  <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="aside.css" />
+    <link rel="stylesheet" href="footer.css" />
   </head>
   <body>
     <header>
@@ -32,21 +33,22 @@
       </nav>
     </header>
     <div class="container">
-    <nav>
-      <a href="/overview/">Overview</a>
-      <a href="/repositories/">Repositories</a>
-      <a href="/projects/">Projects</a>
-      <a href="/packages/">Packages</a>
-      <a href="/stars/">Stars</a>
-    </nav>
-  </div>
-    <input
+      <nav>
+        <a href="/overview/">Overview</a>
+        <a href="/repositories/">Repositories</a>
+        <a href="/projects/">Projects</a>
+        <a href="/packages/">Packages</a>
+        <a href="/stars/">Stars</a>
+      </nav>
+    </div>
+    
+    <span>
+      <input
       type="search"
       id="site-search"
       name="q"
       placeholder="Find a repository..."
     />
-    <span>
       <select name="select-type" id="select-type">
         <option value="type" selected>Type</option>
         <option value="all">All</option>
@@ -59,23 +61,26 @@
       <select name="sort" id="sort">
         <option value="sort" selected>Sort</option>
       </select>
-      <button>New</button>
     </span>
+
+    <aside>
+      <img src="images/gitprofilepic.png" alt="profilepic" />
+      <h1>Elia Partin</h1>
+      <button>Follow</button>
+    </aside>
     <main>
-      <aside>
-        <img src="images/gitprofilepic.png" alt="profilepic" />
-        <h1>Elia Partin</h1>
-        <button>Follow</button>
-      </aside>
-      <div id="repostitories list">
+      <section id="repostitories list">
         <ul class="repositories">
-          <li><a href="">vertical-timeline</a></li>
-          <button>
-            <img src="images/star icon.png" alt="star icon" /> Star
-          </button>
+          <li>
+            <a href="">vertical-timeline</a
+            ><button>
+              <img src="images/star icon.png" alt="star icon" /> Star
+            </button>
+          </li>
+
           <li><a href="">octocats</a></li>
-          <button>Star</button>
-          <img src="images/star icon.png" alt="star icon" />
+          <button><img src="images/star icon.png" alt="star icon" />Star</button>
+          
           <li><a href="">awesomely-ugly-website</a></li>
           <button>
             <img src="images/star icon.png" alt="star icon" />Star
@@ -93,7 +98,7 @@
             <img src="images/star icon.png" alt="star icon" />Star
           </button>
           <li><a href="">js-array-practice</a></li>
-          <img src="images/star icon.png" alt="star icon" /><button>
+          <button><img src="images/star icon.png" alt="star icon" />
             Star
           </button>
           <li><a href="">array-cardio-day1</a></li>
@@ -117,7 +122,7 @@
             <img src="images/star icon.png" alt="star icon" />Star
           </button>
         </ul>
-      </div>
+      </section>
     </main>
     <footer>
       <img src="images/mark-github.jpeg" alt="GitHubicon" />
