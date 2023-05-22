@@ -16,44 +16,30 @@ html {
 
 body {
   background-color: var(--primary-black);
-  display: flex;
-  margin: 0;
-  display: grid;
-}
-.container {
-  position: relative;
-  padding: 50px;
-  display: flexbox;
-  box-sizing: border-box;
-  left: 22%;
+ 
 }
 
-.container a {
-  color: #f0f6fc;
-  font: var(--primary-font-family);
-  font-weight: 500;
-  font-size: 12px;
-  padding: 8px;
-}
 input {
-  position: relative;
   background-color: #0d1116;
   left: 500px;
   width: 450px;
 }
-span {
-  position: absolute;
+
+.find-respository {
+  display: flex;
   font-size: 14px;
-  margin-top: 125px;
-  background-color: #161b22;;
+  background-color: #161b22;
+
+  font-size: 14px;
+  font-family: var(--primary-font-family);
+ 
 }
 select {
-    position: relative;
-  background-color: #161b22;;
-  font-size: 14px;
+  background-color: #161b22;
+  font-size: 12px;
   color: #f0f6fc;
-  left: 80%;
   font-family: var(--primary-font-family);
+ 
 }
 button {
   background-color: #0d1116;

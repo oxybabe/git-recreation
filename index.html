@@ -13,132 +13,192 @@
     <link rel="stylesheet" href="footer.css" />
   </head>
   <body>
-    <header>
-      <img src="images/mark-github.jpeg" alt="GitHubicon" />
-      <form id="form">
-        <input
-          type="search"
-          id="query"
-          name="q"
-          placeholder="Search or jump to..."
-        />
-        <!-- <button>/</button> -->
-      </form>
-      <nav>
-        <a href="pull-requests">Pull Requests</a>
-        <a href="issues">Issues</a>
-        <a href="codespaces">Codespaces</a>
-        <a href="marketplace">Marketplace</a>
-        <a href="explore">Explore</a>
-      </nav>
-    </header>
-    <div class="container">
-      <nav>
-        <a href="/overview/">Overview</a>
-        <a href="/repositories/">Repositories</a>
-        <a href="/projects/">Projects</a>
-        <a href="/packages/">Packages</a>
-        <a href="/stars/">Stars</a>
-      </nav>
-    </div>
-    
-    <span>
-      <input
-      type="search"
-      id="site-search"
-      name="q"
-      placeholder="Find a repository..."
-    />
-      <select name="select-type" id="select-type">
-        <option value="type" selected>Type</option>
-        <option value="all">All</option>
-        <option value="public" disabled>Public</option>
-        <option value="private" disabled>Private</option>
-      </select>
-      <select name="language" id="language">
-        <option value="language" selected>Language</option>
-      </select>
-      <select name="sort" id="sort">
-        <option value="sort" selected>Sort</option>
-      </select>
-    </span>
+    <main class="container">
+      <header class="header">
+        <div></div>
+        <img src="images/mark-github.jpeg" alt="GitHubicon" />
+        <form id="form">
+          <input
+            type="search"
+            id="query"
+            name="q"
+            placeholder="Search or jump to..."
+          />
+          <!-- <button>/</button> -->
+        </form>
+        <nav>
+          <a href="pull-requests">Pull Requests</a>
+          <a href="issues">Issues</a>
+          <a href="codespaces">Codespaces</a>
+          <a href="marketplace">Marketplace</a>
+          <a href="explore">Explore</a>
+        </nav>
+      <div class="header1right">
+        <img src="images/bell.png" alt="bell-icon">
+        <img src="images/plus_106443.png" alt="plus-icon">
+        <img src="images/oxybabe.png" alt="profile-icon">
+      </div>
+      </header>
+      <div class="header2">
+        <nav>
+          <a href="/overview/">Overview</a>
+          <a href="/repositories/">Repositories</a>
+          <a href="/projects/">Projects</a>
+          <a href="/packages/">Packages</a>
+          <a href="/stars/">Stars</a>
+        </nav>
+      </div>
 
-    <aside>
-      <img src="images/gitprofilepic.png" alt="profilepic" />
-      <h1>Elia Partin</h1>
-      <button>Follow</button>
-    </aside>
-    <main>
-      <section id="repostitories list">
-        <ul class="repositories">
-          <li>
-            <a href="">vertical-timeline</a
-            ><button>
-              <img src="images/star icon.png" alt="star icon" /> Star
-            </button>
-          </li>
-
-          <li><a href="">octocats</a></li>
-          <button><img src="images/star icon.png" alt="star icon" />Star</button>
-          
-          <li><a href="">awesomely-ugly-website</a></li>
-          <button>
-            <img src="images/star icon.png" alt="star icon" />Star
-          </button>
-          <li><a href="">js-war-game</a></li>
-          <button>
-            <img src="images/star icon.png" alt="star icon" />Star
-          </button>
-          <li><a href="">js-memory-game</a></li>
-          <button>
-            <img src="images/star icon.png" alt="star icon" />Star
-          </button>
-          <li><a href="">js-etsy-iteration</a></li>
-          <button>
-            <img src="images/star icon.png" alt="star icon" />Star
-          </button>
-          <li><a href="">js-array-practice</a></li>
-          <button><img src="images/star icon.png" alt="star icon" />
-            Star
-          </button>
-          <li><a href="">array-cardio-day1</a></li>
-          <button>
-            <img src="images/star icon.png" alt="star icon" />Star
-          </button>
-          <li><a href="">js-responsive-calculator</a></li>
-          <button>
-            <img src="images/star icon.png" alt="star icon" />Star
-          </button>
-          <li><a href="">js-guessing-game</a></li>
-          <button>
-            <img src="images/star icon.png" alt="star icon" />Star
-          </button>
-          <li><a href="">js-function-practice</a></li>
-          <button>
-            <img src="images/star icon.png" alt="star icon" />Star
-          </button>
-          <li><a href="">js-virtual-pet</a></li>
-          <button>
-            <img src="images/star icon.png" alt="star icon" />Star
-          </button>
-        </ul>
-      </section>
+      <div class="main-content">
+        <aside class="profilepic">
+          <img src="images/gitprofilepic.png" alt="profilepic" />
+          <h1>Elia Partin</h1>
+          <h2>oxybabe</h2>
+          <button>Follow</button>
+          <p> 0 followers-1 following</p>
+        </aside>
+        <section id="repostitories-list">
+          <div class="find-repository">
+            <span>
+              <input
+                type="search"
+                id="site-search"
+                name="q"
+                placeholder="Find a repository..."
+              />
+              
+              <select class="select-type" name="select-type" id="select-type">
+                <option value="type" selected>Type</option>
+                <option value="all">All</option>
+                <option value="public" disabled>Public</option>
+                <option value="private" disabled>Private</option>
+              </select>
+              <select name="language" id="language">
+                <option value="language" selected>Language</option>
+              </select>
+              <select name="sort" id="sort">
+                <option value="sort" selected>Sort</option>
+              </select>
+            
+            </span>
+          </div>
+          <ul class="repositories">
+            <div class="titles">
+              <li>
+                <a href="">vertical-timeline</a
+                ><button>
+                  <img src="images/star icon.png" alt="star icon" /> Star
+                </button>
+              </li>
+            </div>
+            <div class="titles">
+              <li>
+                <a href="">octocats</a
+                ><button>
+                  <img src="images/star icon.png" alt="star icon" />Star
+                </button>
+              </li>
+            </div>
+            <div class="titles">
+              <li>
+                <a href="">awesomely-ugly-website</a
+                ><button>
+                  <img src="images/star icon.png" alt="star icon" />Star
+                </button>
+              </li>
+            </div>
+            <div class="titles">
+              <li>
+                <a href="">js-war-game</a>
+                <button>
+                  <img src="images/star icon.png" alt="star icon" />Star
+                </button>
+              </li>
+            </div>
+            <div class="titles">
+              <li>
+                <a href="">js-memory-game</a
+                ><button>
+                  <img src="images/star icon.png" alt="star icon" />Star
+                </button>
+              </li>
+            </div>
+            <div class="titles">
+              <li>
+                <a href="">js-etsy-iteration</a
+                ><button>
+                  <img src="images/star icon.png" alt="star icon" />Star
+                </button>
+              </li>
+            </div>
+            <div class="titles">
+              <li>
+                <a href="">js-array-practice</a
+                ><button>
+                  <img src="images/star icon.png" alt="star icon" />
+                  Star
+                </button>
+              </li>
+            </div>
+            <div class="titles">
+              <li>
+                <a href="">array-cardio-day1</a
+                ><button>
+                  <img src="images/star icon.png" alt="star icon" />Star
+                </button>
+              </li>
+            </div>
+            <div class="titles">
+              <li>
+                <a href="">js-responsive-calculator</a
+                ><button>
+                  <img src="images/star icon.png" alt="star icon" />Star
+                </button>
+              </li>
+            </div>
+            <div class="titles">
+              <li>
+                <a href="">js-guessing-game</a
+                ><button>
+                  <img src="images/star icon.png" alt="star icon" />Star
+                </button>
+              </li>
+            </div>
+            <div class="titles">
+              <li>
+                <a href="">js-function-practice</a
+                ><button>
+                  <img src="images/star icon.png" alt="star icon" />Star
+                </button>
+              </li>
+            </div>
+            <div class="titles">
+              <li>
+                <a href="">js-virtual-pet</a
+                ><button>
+                  <img src="images/star icon.png" alt="star icon" />Star
+                </button>
+              </li>
+            </div>
+          </ul>
+        </section>
+      </div>
+      <footer>
+        <img src="images/mark-github.jpeg" alt="GitHubicon" />
+        <nav>
+          <a href="terms">Terms</a>
+          <a href="privacy">Privacy</a>
+          <a href="security">Security</a>
+          <a href="status">Status</a>
+          <a href="docs">Docs</a>
+          <a href="contact">Contact GitHub</a>
+          <a href="pricing">Pricing</a>
+          <a href="API">API</a>
+          <a href="training">Training</a>
+          <a href="blog">Blog</a>
+          <a href="about">About</a>
+        </nav>
+      </footer>
     </main>
-    <footer>
-      <img src="images/mark-github.jpeg" alt="GitHubicon" />
-      <nav>
-        <a href="terms">Terms</a>
-        <a href="privacy">Privacy</a>
-        <a href="security">Security</a>
-        <a href="status">Status</a>
-        <a href="docs">Docs</a>
-        <a href="contact">Contact GitHub</a>
-        <a href="pricing">Pricing</a>
-        <a href="API">API</a>
-        <a href="training">Training</a>
-        <a href="blog">Blog</a>
-        <a href="about">About</a>
-      </nav>
-    </footer>
   </body>
 </html>

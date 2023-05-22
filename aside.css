@@ -1,25 +1,23 @@
+
 aside {
-    width: 0;
-    /* column-count: 1; */
-  
-    display: block;
-    height: 100vh;
-    margin-top: -52%;
-    margin-left: 18%;
-    
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+   
 }
-aside h1 {
-    font: 18px var(--primary-font-family);
-    color: white;
-    font-weight: var(--primary-font-family);
-    text-align: center;
+
+.profilepic {
+   display: flex;
+   display: table-row;
+   width: 25%;
+   
+      
 }
-aside img {
+.profilepic img {
     border-radius: 50%;
     height: 225px;
     width: 225px;
-    display: block;
-    position: relative;
+
 }
 aside button {
     background-color: #161b22;
@@ -27,5 +25,23 @@ aside button {
     border-radius: 5px;
    font-family: var(--primary-font-family);
    font-size: 12px;
-   text-align: center;
+   width: 225px;
+   
+}
+aside h1 {
+    font: 18px var(--primary-font-family);
+    color: white;
+    font-weight: var(--primary-font-family);
+}
+aside h2 {
+    font: 18px var(--primary-font-family);
+    color: white;
+    font-weight: 100;
+}
+aside p {
+    font: var(--primary-font-family);
+    color: white;
+    font-weight: 1;
+    font-size: 12px;
+    
 }
