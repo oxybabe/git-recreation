@@ -29,9 +29,11 @@ input {
   display: flex;
   font-size: 14px;
   background-color: #161b22;
-
   font-size: 14px;
   font-family: var(--primary-font-family);
+  padding-bottom: 15px;
+  
+  
  
 }
 select {

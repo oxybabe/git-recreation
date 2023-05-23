@@ -1,7 +1,7 @@
 footer {
   display: flex;
   justify-content: center;
-  word-spacing: 2em;
+  /* word-spacing: 2em; */
   padding-top: 110px;
   font: var(--primary-font-family);
   width: 100%;
@@ -11,12 +11,19 @@ footer {
 footer img {
   width: 32px;
   height: 32px;
+  color: #7d8590;
 }
 
 footer a {
-  color: #f0f6fc;
+  color: #2f81f7;
   font: var(--primary-font-family);
   font-weight: 500;
   font-size: 12px;
   text-decoration: none;
+  
+}
+footer p {
+  color: #7d8590;
+  font-family: var(--primary-font-family);
+  font-size: 12px;
 }

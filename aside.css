@@ -35,13 +35,20 @@ aside h1 {
 }
 aside h2 {
     font: 18px var(--primary-font-family);
-    color: white;
+    color: #e6edf3;
     font-weight: 100;
+}
+aside h3 {
+    color: white;
+    font-family: var(--primary-font-family) 10px;
+    font-weight: 200;
 }
 aside p {
     font: var(--primary-font-family);
     color: white;
     font-weight: 1;
     font-size: 12px;
+    padding: 8px;
+    border-bottom: 1px #21262d solid;
     
 }
